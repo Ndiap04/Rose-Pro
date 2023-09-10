@@ -76,8 +76,6 @@ if not BOT_TOKEN:
    LOGGER(__name__).error("WARNING: BOT TOKEN TIDAK DITEMUKAN, SHUTDOWN BOT")
    sys.exit()
 
-db = db_x
-
 async def load_sudoers():
     global SUDOERS
     LOGGER("Geez").info("Loading sudoers")
