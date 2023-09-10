@@ -2,7 +2,6 @@ import importlib
 import time
 from pyrogram import idle
 from uvloop import install
-from roselibs import logging, BOT_VER, __version__ as gver
 from Rose import LOGGER, LOOP, aiosession, bot1, bots, app, ids
 from config import CMD_HNDLR, BOTLOG_CHATID
 from Rose.modules import ALL_MODULES
@@ -13,7 +12,6 @@ MSG_ON = """
 **Rose-Pro Userbot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Userbot Version -** `{}`
-**Rose Libary Version - `{}`**
 **Ketik** `{}rose` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ©️2023 SM|Sukses Makmur PROJECT 
